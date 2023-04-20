@@ -67,6 +67,7 @@ def user_login(request):
 
             else:
                 return HttpResponse("Account not active")
+                print("User is not active")
         else:
             print("someone")
             print(f"username:{username} and password{password}")
